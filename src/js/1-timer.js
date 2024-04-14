@@ -12,6 +12,8 @@ const timerMinutes = document.querySelector('span[data-minutes]');
 const timerSeconds = document.querySelector('span[data-seconds]');
 
 startBtn.addEventListener('click', onClickStartTimer);
+startBtn.disabled = true;
+
 
 let userSelectedDate = '';
 let intervalId = '';
